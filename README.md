@@ -1,4 +1,4 @@
-Norvrandt font
+Kugane font
 ====
 
 Kugane font for FF14.
