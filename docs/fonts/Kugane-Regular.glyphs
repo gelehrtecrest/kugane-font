@@ -1,8 +1,5 @@
 {
-.appVersion = "1271";
-DisplayStrings = (
-"9"
-);
+.appVersion = "1286";
 copyright = MIT;
 customParameters = (
 {
@@ -10,10 +7,39 @@ name = localizedFamilyName;
 value = "Japanese;Kugane";
 }
 );
-date = "2019-12-14 13:02:50 +0000";
+date = "2020-04-27 12:38:51 +0000";
 designer = "Gelehrte Crest";
 designerURL = "http://www.gelehrte.com";
 familyName = Kugane;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature vert;\012feature vkna;\012feature vrt2;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "sub a-hira by a-hira.vert;\012sub asmall-hira by asmall-hira.vert;\012sub i-hira by i-hira.vert;\012";
+name = vert;
+},
+{
+automatic = 1;
+code = "sub a-hira by a-hira.vert;\012sub asmall-hira by asmall-hira.vert;\012sub i-hira by i-hira.vert;\012";
+name = vkna;
+},
+{
+automatic = 1;
+code = "sub a-hira by a-hira.vert;\012sub asmall-hira by asmall-hira.vert;\012sub i-hira by i-hira.vert;\012";
+name = vrt2;
+}
+);
 fontMaster = (
 {
 ascender = 800;
@@ -11881,6 +11907,278 @@ width = 523;
 unicode = 3093;
 },
 {
+glyphname = "a-hira.vert";
+lastChange = "2020-04-27 12:22:43 +0000";
+layers = (
+{
+layerId = "1305C52C-0BD1-483E-A343-C05F3AFF2931";
+paths = (
+{
+closed = 1;
+nodes = (
+"360 799 OFFCURVE",
+"476 750 OFFCURVE",
+"502 726 CURVE",
+"516 714 OFFCURVE",
+"522 676 OFFCURVE",
+"515 665 CURVE",
+"509 655 OFFCURVE",
+"490 670 OFFCURVE",
+"481 661 CURVE",
+"471 651 OFFCURVE",
+"463 623 OFFCURVE",
+"462 605 CURVE",
+"460 550 OFFCURVE",
+"455 323 OFFCURVE",
+"455 323 CURVE",
+"455 323 OFFCURVE",
+"522 372 OFFCURVE",
+"537 399 CURVE",
+"550 423 OFFCURVE",
+"544 487 OFFCURVE",
+"544 487 CURVE",
+"544 487 OFFCURVE",
+"626 439 OFFCURVE",
+"643 416 CURVE",
+"656 397 OFFCURVE",
+"649 357 OFFCURVE",
+"640 345 CURVE",
+"632 333 OFFCURVE",
+"615 336 OFFCURVE",
+"595 333 CURVE",
+"562 329 OFFCURVE",
+"457 272 OFFCURVE",
+"457 272 CURVE",
+"457 272 OFFCURVE",
+"455 56 OFFCURVE",
+"456 2 CURVE",
+"456 -22 OFFCURVE",
+"465 -51 OFFCURVE",
+"459 -59 CURVE",
+"452 -67 OFFCURVE",
+"428 -58 OFFCURVE",
+"417 -45 CURVE",
+"407 -33 OFFCURVE",
+"398 11 OFFCURVE",
+"402 21 CURVE",
+"405 30 OFFCURVE",
+"412 33 OFFCURVE",
+"413 42 CURVE",
+"416 82 OFFCURVE",
+"419 258 OFFCURVE",
+"419 258 CURVE",
+"419 258 OFFCURVE",
+"336 224 OFFCURVE",
+"293 210 CURVE",
+"248 196 OFFCURVE",
+"149 173 OFFCURVE",
+"149 173 CURVE",
+"149 173 OFFCURVE",
+"260 220 OFFCURVE",
+"305 241 CURVE",
+"344 260 OFFCURVE",
+"419 305 OFFCURVE",
+"419 305 CURVE",
+"419 305 OFFCURVE",
+"417 583 OFFCURVE",
+"415 659 CURVE",
+"415 698 OFFCURVE",
+"367 738 OFFCURVE",
+"356 760 CURVE",
+"353 767 OFFCURVE",
+"360 799 OFFCURVE",
+"360 799 CURVE"
+);
+}
+);
+width = 800;
+}
+);
+},
+{
+glyphname = "asmall-hira.vert";
+lastChange = "2020-04-27 12:25:56 +0000";
+layers = (
+{
+layerId = "1305C52C-0BD1-483E-A343-C05F3AFF2931";
+paths = (
+{
+closed = 1;
+nodes = (
+"521 425 LINE",
+"524 428 OFFCURVE",
+"537 425 OFFCURVE",
+"543 421 CURVE",
+"558 411 OFFCURVE",
+"613 375 OFFCURVE",
+"611 357 CURVE",
+"610 342 OFFCURVE",
+"567 345 OFFCURVE",
+"567 330 CURVE",
+"567 291 OFFCURVE",
+"566 156 OFFCURVE",
+"565 126 CURVE",
+"565 115 OFFCURVE",
+"540 145 OFFCURVE",
+"540 145 CURVE",
+"540 145 OFFCURVE",
+"541 335 OFFCURVE",
+"542 380 CURVE",
+"542 390 OFFCURVE",
+"529 392 OFFCURVE",
+"525 400 CURVE",
+"522 407 OFFCURVE",
+"517 422 OFFCURVE",
+"521 425 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"550 182 LINE",
+"552 141 LINE",
+"552 141 OFFCURVE",
+"510 147 OFFCURVE",
+"496 156 CURVE",
+"482 165 OFFCURVE",
+"465 180 OFFCURVE",
+"466 196 CURVE",
+"467 222 OFFCURVE",
+"502 256 OFFCURVE",
+"531 271 CURVE",
+"562 287 OFFCURVE",
+"633 292 OFFCURVE",
+"648 267 CURVE",
+"679 217 OFFCURVE",
+"643 160 OFFCURVE",
+"600 106 CURVE",
+"521 7 OFFCURVE",
+"414 1 OFFCURVE",
+"414 1 CURVE",
+"414 1 OFFCURVE",
+"515 51 OFFCURVE",
+"559 98 CURVE",
+"593 136 OFFCURVE",
+"632 207 OFFCURVE",
+"630 235 CURVE",
+"629 256 OFFCURVE",
+"608 275 OFFCURVE",
+"574 272 CURVE",
+"552 270 OFFCURVE",
+"502 244 OFFCURVE",
+"501 207 CURVE",
+"500 196 OFFCURVE",
+"512 185 OFFCURVE",
+"521 182 CURVE",
+"530 179 OFFCURVE",
+"550 182 OFFCURVE",
+"550 182 CURVE"
+);
+}
+);
+width = 800;
+}
+);
+},
+{
+glyphname = "i-hira.vert";
+lastChange = "2020-04-27 12:36:17 +0000";
+layers = (
+{
+layerId = "1305C52C-0BD1-483E-A343-C05F3AFF2931";
+paths = (
+{
+closed = 1;
+nodes = (
+"384 614 OFFCURVE",
+"487 583 OFFCURVE",
+"509 555 CURVE",
+"522 538 OFFCURVE",
+"523 510 OFFCURVE",
+"506 491 CURVE",
+"499 482 OFFCURVE",
+"473 487 OFFCURVE",
+"457 491 CURVE",
+"447 493 OFFCURVE",
+"443 497 OFFCURVE",
+"430 498 CURVE",
+"416 500 OFFCURVE",
+"384 482 OFFCURVE",
+"368 450 CURVE",
+"350 416 OFFCURVE",
+"340 335 OFFCURVE",
+"353 286 CURVE",
+"366 236 OFFCURVE",
+"401 179 OFFCURVE",
+"445 145 CURVE",
+"525 82 OFFCURVE",
+"647 84 OFFCURVE",
+"651 66 CURVE",
+"657 34 OFFCURVE",
+"498 60 OFFCURVE",
+"412 131 CURVE",
+"361 174 OFFCURVE",
+"319 247 OFFCURVE",
+"305 297 CURVE",
+"293 339 OFFCURVE",
+"298 390 OFFCURVE",
+"306 432 CURVE",
+"315 478 OFFCURVE",
+"386 577 OFFCURVE",
+"386 577 CURVE",
+"384 614 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"149 787 OFFCURVE",
+"214 789 OFFCURVE",
+"257 769 CURVE",
+"278 759 OFFCURVE",
+"320 730 OFFCURVE",
+"329 716 CURVE",
+"336 706 OFFCURVE",
+"329 688 OFFCURVE",
+"323 681 CURVE",
+"316 673 OFFCURVE",
+"296 678 OFFCURVE",
+"289 673 CURVE",
+"281 668 OFFCURVE",
+"274 654 OFFCURVE",
+"273 645 CURVE",
+"268 537 OFFCURVE",
+"265 165 OFFCURVE",
+"264 54 CURVE",
+"263 32 OFFCURVE",
+"294 8 OFFCURVE",
+"293 -9 CURVE",
+"292 -34 OFFCURVE",
+"286 -52 OFFCURVE",
+"267 -50 CURVE",
+"241 -47 OFFCURVE",
+"212 -19 OFFCURVE",
+"214 14 CURVE",
+"215 39 OFFCURVE",
+"231 39 OFFCURVE",
+"231 59 CURVE",
+"233 159 OFFCURVE",
+"234 539 OFFCURVE",
+"235 645 CURVE",
+"236 664 OFFCURVE",
+"228 683 OFFCURVE",
+"219 699 CURVE",
+"205 723 OFFCURVE",
+"149 787 OFFCURVE",
+"149 787 CURVE"
+);
+}
+);
+width = 800;
+}
+);
+},
+{
 export = 0;
 glyphname = "wasmall-hira";
 lastChange = "2019-12-15 13:38:22 +0000";
@@ -14548,6 +14846,6 @@ name = Regular;
 manufacturer = "Gelehrte Crest";
 manufacturerURL = "http://www.gelehrte.com";
 unitsPerEm = 1000;
-versionMajor = 1;
-versionMinor = 1;
+versionMajor = 2;
+versionMinor = 0;
 }
